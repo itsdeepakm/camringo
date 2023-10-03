@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+
+.plans{
+    position: relative;
+    top: 15vh;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    font-family: 'Narnoor', serif;
+    font-size: 3rem;
+}
+
+.art{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.best, .designed, .for{
+    background: linear-gradient(to right, #4e7976 0%, #ac4f56 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+    font-size: 2.7rem;
+}
+
+.for{
+    font-size: 3.5rem;
+}
+
+
+.planImage{
+    height: 220px;
+}
+
+.allPlans{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .plans{
+        top: 9vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .allPlans{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+
+}
+
+
+

@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.projects{
+    position: relative;
+    top: 15vh;
+}
+
+
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Narnoor', serif;
+    font-size: 2rem;
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+}
+
+.projectHeading{
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 20px;
+    font-family: 'Narnoor', serif;
+    font-size: 3rem;
+}
+
+.marquee{
+    margin-top: 4vh;
+}
+
+.marqueeImage{
+    height: 170px;
+    width: 270px;
+    margin: 5px;
+    border-radius: 14px;
+}
+
+.projectVideo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.projectTvVideo{
+    width: 800px;
+    border: solid #000 2px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-backbackdrop-filter: blur(2px);
+}
+
+.projectPunchline{
+    text-align: center;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 4vh;
+}
+
+
+.lines{
+    font-family: 'Narnoor', serif;
+    font-size: 1.2rem;
+}
+
+
+.art1{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+.smallImage{
+    height: 160px;
+    width: 160px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.centerImage{
+    height: 450px;
+    width: 280px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.leftArt, .rightArt{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.smallImage1, .smallImage2, .smallImage3, .smallImage4{
+    position: relative;
+    bottom: 25px;
+}
+
+
+.artVideos{
+    margin-top: 7vh;
+}
+
+.artVideos1, .artVideos2, .artVideos3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.artVideo1, .artVideo2{
+    width: 600px;
+    border-radius: 20px;
+    margin: 60px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.artVideo3{
+    height: 350px;
+    border-radius: 20px;
+    margin: 60px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.artVideo1{
+    transform: rotate(-5deg);
+}
+
+.artVideo2{
+    transform: rotate(5deg);
+}
+
+.artDesc1, .artDesc2, .artDesc3{
+    font-family: 'Narnoor', serif;
+    font-size: 4rem;
+    width: 45vw;
+    text-align: center;
+}
+
+.artDesc1{
+    background: linear-gradient(to right, #73b540 0%, #1c097a 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+}
+
+.artDesc2{
+    background: linear-gradient(to right, #474a0a 0%, #b64242 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+}
+
+.artDesc3{
+    background: linear-gradient(to right, #304a99 0%, #b6429f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+}
+
+.mix{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.mix1, .mix2{
+    display: flex;
+    justify-content: center;
+}
+
+.landscape1, .landscape2, .landscape3, .landscape4, .landscape5, .landscape6{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+.portrait1, .portrait2, .portrait3, .portrait4, .portrait5, .portrait6{
+    height: 300px;
+    margin: 5px;
+}
+
+.landscape1, .landscape2, .landscape3{
+    position: relative;
+    top: 100px;
+}
+
+.portrait3, .landscape4, .portrait4, .landscape5, .portrait5, .landscape6{
+    position: relative;
+    right: 50px;
+}
+
+.married{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #31b568 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Kalam', cursive;
+    font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    .projectInfo{
+        width: 90vw;
+        left: 5vw;
+    }
+
+    .smallImage{
+        height: 130px;
+        width: 130px;
+    }
+    
+    .centerImage{
+        height: 420px;
+        width: 250px;
+    }
+
+    .art1{
+        height: 500px;
+    }
+
+    .artVideo1, .artVideo2{
+        width: 500px;
+        margin: 40px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 3.5rem;
+    }  
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .projectPunchline{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .landscape1, .landscape2, .landscape3, .landscape4, .landscape5, .landscape6{
+        width: 200px;
+        height: 170px;
+        margin: 5px;
+    }
+    
+    .portrait1, .portrait2, .portrait3, .portrait4, .portrait5, .portrait6{
+        height: 230px;
+        margin: 5px;
+    }
+    
+    .landscape1, .landscape2, .landscape3{
+        position: relative;
+        top: 60px;
+    }
+    
+    .portrait3, .landscape4, .portrait4, .landscape5, .portrait5, .landscape6{
+        position: relative;
+        right: 50px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 2.7rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 900px) {
+    .projects{
+        top: 12vh;
+    }
+
+    .marqueeImage{
+        height: 150px;
+        width: 230px;
+    }
+
+    .projectTvVideo{
+    width: 600px;
+    }
+
+    .smallImage{
+        height: 110px;
+        width: 110px;
+    }
+    
+    .centerImage{
+        height: 400px;
+        width: 230px;
+    }
+
+    .art1{
+        height: 470px;
+    }
+
+    .artVideo1, .artVideo2{
+        width: 400px;
+        margin: 30px;
+    }
+
+    .artVideo3{
+        height: 300px;
+        margin: 30px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 3.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 2.9rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .smallImage{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .centerImage{
+        height: 350px;
+        width: 210px;
+    }
+
+    .projectInfo{
+        font-size: 1.1rem;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 3.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .none{
+        display: none;
+    }
+
+    .leftArt, .rightArt{
+        grid-template-columns: auto;
+    }
+
+    .art1{
+        height: 420px;
+    }
+
+    .smallImage{
+        height: 130px;
+        width: 130px;
+        bottom: 0;
+    }
+
+    .smallImage1{
+        right: 25px;
+    }
+
+    .smallImage4{
+        left: 25px;
+    }
+
+    .artVideo1, .artVideo2{
+        width: 350px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        width: 40vw;
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .projectTvVideo{
+        width: 500px;
+    }
+
+    .projectPunchline{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .married{
+        font-size: 4rem;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 650px){
+    .landscape1, .landscape2, .landscape3, .landscape4, .landscape5, .landscape6{
+        width: 200px;
+        height: 130px;
+        margin: 5px;
+    }
+    
+    .portrait1, .portrait2, .portrait3, .portrait4, .portrait5, .portrait6{
+        height: 250px;
+        margin: 5px;
+    }
+    
+    .landscape1, .landscape2, .landscape3{
+        position: relative;
+        top: 120px;
+    }
+    
+    .portrait3, .landscape4, .portrait4, .landscape5, .portrait5, .landscape6{
+        position: relative;
+        right: 50px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .marqueeImage{
+        height: 120px;
+        width: 190px;
+        margin: 3px;
+        border-radius: 10px;
+    }
+
+    .projectTvVideo{
+        width: 430px;
+    }
+
+    .lines{
+        font-size: 1.1rem;
+    }
+
+    .art1{
+        height: 380px;
+    }
+
+    .centerImage{
+        height: 320px;
+        width: 180px;
+    }
+
+    .artVideo1, .artVideo2{
+        width: 280px;
+        border-radius: 10px;
+    }
+
+    .artVideo3{
+        border-radius: 10px;
+        height: 250px;
+    }
+
+    .artVideo1, .artVideo2, .artVideo3{
+        margin: 15px;
+    }
+
+    .artVideo2, .artVideo3{
+        margin-top: 7vh;
+    }
+
+    .married{
+        font-size: 3.5rem;
+    }
+
+    .married{
+        margin-top: 5vh;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 2.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .centerImage{
+        height: 300px;
+        width: 180px;
+    }
+
+    .smallImage{
+        height: 150px;
+        width: 150px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 2.5rem;
+    }
+    
+}
+    
+@media only screen and (max-width: 500px) {
+    .projectTvVideo{
+        width: 420px;
+    }
+
+    .projectPunchline{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .centerImage{
+        height: 260px;
+        width: 180px;
+    }
+
+    .art1{
+        margin-top: 7vh;
+    }
+
+    .artVideo1, .artVideo2{
+        width: 220px;
+    }
+
+    .artDesc1, .artDesc2, .artDesc3{
+        font-size: 2.5rem;
+    }
+
+    .married{
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .projectTvVideo{
+        width: 380px;
+    }
+
+    .centerImage{
+        height: 260px;
+        width: 170px;
+    }
+
+    .smallImage1{
+        right: 10px;
+    }
+
+    .smallImage4{
+        left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .projectInfo{
+        font-size: 1rem;
+    }
+
+    .projectTvVideo{
+        width: 360px;
+    }
+
+    .smallImage1{
+        right: 10px;
+    }
+
+    .smallImage4{
+        left: 15px;
+    }
+
+    .married{
+        font-size: 2.5rem;
+    }
+}

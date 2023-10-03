@@ -1,0 +1,13 @@
+.jobs{
+    position: relative;
+    top: 15vh;
+}
+
+.job1, .job2, .job3{
+    height: 45vh;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    background-color: yellowgreen;
+    margin-top: 3vh;
+}

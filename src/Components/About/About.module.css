@@ -1,0 +1,192 @@
+.about{
+    position: relative;
+    top: 15vh;
+}
+
+.aboutHeading{
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Narnoor', serif;
+    font-size: 3rem;
+}
+
+.aboutUs{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(227, 227, 227);
+    color: #393939;
+    font-family: 'Narnoor', serif;
+    font-size: 1.2rem;
+}
+
+.bottom{
+    margin-top: 3vh;
+}
+
+.ourPromise{
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 20px;
+    font-family: 'Narnoor', serif;
+    font-size: 2.2rem;
+}
+
+.promise{
+    background-color: rgb(230, 230, 230);
+    color: #2b2b2b;
+}
+
+.promises{
+    padding: 20px;
+    font-family: 'Narnoor', serif;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promises div{
+    margin-top: 3vh;
+}
+
+.teamHeading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Narnoor', serif;
+    font-size: 3rem;
+    margin-top: 3vh;
+}
+
+.videographers, .photographers, .editors{
+    background-color:#f0f0f0;
+    position: relative;
+    bottom: 3vh;
+}
+
+.videographersHeading{
+    font-size: 2.5rem;
+    font-family: 'Narnoor', serif;
+    padding: 20px;
+}
+
+.videographerImage, .photographerImage, .editorImage{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.videographers, .photographers, .editors{
+    margin-top: 50px;
+}
+
+.name{
+    width: 250px;
+    margin: 10px;
+    font-family: 'Narnoor', serif;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.desc{
+    font-family: 'Narnoor', serif;
+    font-size: 1rem;
+    padding-left: 20px;
+    width: 60vw;
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .about{
+        top: 10vh;
+    }
+
+    .aboutHeading, .teamHeading, .videographersHeading{
+        position: relative;
+        right: 10px;
+        font-size: 2rem;
+    }
+
+    .videographerImage, .photographerImage, .editorImage{
+        height: 250px;
+        width: 190px;
+    }
+
+    .name{
+        width: 190px;
+    }
+
+    .aboutHeading{
+        font-size: 2.7rem;
+    }
+
+    .desc{
+        width: 80vw;
+        padding-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .videographerImage, .photographerImage, .editorImage{
+        height: 210px;
+        width: 150px;
+        margin: 10px;
+    }
+
+    .name{
+        width: 150px;
+        margin: 10px;
+    }
+
+    .desc{
+        width: 90vw;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .videographerImage, .photographerImage, .editorImage{
+        height: 180px;
+        width: 150px;
+        margin: 5px;
+    }
+
+    .name{
+        width: 150px;
+        margin: 5px;
+    }
+}

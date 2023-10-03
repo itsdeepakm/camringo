@@ -1,0 +1,264 @@
+.planDesc{
+    height: auto;
+    width: 100vw;
+    background-color: rgb(238, 238, 238);
+    margin-top: 40px;
+}
+
+.planName{
+    font-size: 2.7rem;
+    margin-left: 40px;
+    font-family: 'Narnoor', serif;
+}
+
+.plans{
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.plan1, .plan2, .plan3, .plan4, .plan5, .plan6{
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+.plan1, .plan4, .plan5, .plan6{
+    height: 250px;
+    width: 450px;
+}
+
+.plan2, .plan3{
+    height: 270px;
+    width: 330px;
+}
+
+.plan3{
+    position: relative;
+    bottom: 12px;
+}
+
+.plan4{
+    position: relative;
+    top: 12px; 
+}
+
+.planImage{
+    margin-left: 10px;
+    height: 100px;
+}
+
+.animatedHeading{
+    position: relative;
+    bottom: 20px;
+    font-family: 'Narnoor', serif;
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #30804b 0%, #d5dc10 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.animatedText{
+    font-family: 'Narnoor', serif;
+    margin: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.seven{
+    position: relative;
+    font-family: 'Narnoor', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #8739c7 0%, #26cf75 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.photographerTeam{
+    width: 330px;
+    height: 200px;
+    border-radius: 16px;
+    margin-top: 8px;
+}
+
+.plan4{
+    background-image: url('https://images.pexels.com/photos/849233/pexels-photo-849233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.plan4 span{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Narnoor', serif;
+    background: linear-gradient(to right, #ffffff 0%, #c9c9c9 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.plan5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoQuality, .videoRecording{
+    font-size: 2rem;
+    position: relative;
+    bottom: 8px;
+    font-family: 'Narnoor', serif;
+    background: linear-gradient(to right, #981ecd 0%, #34ccd7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.two50{
+    background: linear-gradient(to right, #cd901e 0%, #34ccd7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.sony{
+    background: linear-gradient(to right, #1f64a4 0%, #34d75d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.k4{
+    width: 300px;
+    border-radius: 16px;
+}
+
+.videoQuality{
+    background: linear-gradient(to right, #7a1a95 0%, #344cd7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan1, .plan2, .plan3, .plan4, .plan5, .plan6{
+        height: 250px;
+        width: 450px;
+    }
+
+    .plan3{
+        bottom: 0;
+    }
+
+    .plan4{
+        top: 0;
+    }
+
+    .plan2{
+        height: 320px;
+    }
+
+    .seven{
+        top: 10px;
+    }
+
+    .photographerTeam{
+        width: 450px;
+        height: 225px;
+        margin-top: 34px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .plan1, .plan2, .plan3, .plan4, .plan5, .plan6{
+        height: 250px;
+        width: 360px;
+    }
+
+    .plan2{
+        height: 300px;
+    }
+
+    .photographerTeam{
+        width: 360px;
+        height: 204px;
+        margin-top: 34px;
+    }
+
+    .animatedHeading{
+        font-size: 2.5rem;
+        bottom: 18px;
+    }
+
+    .animatedText{
+        bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .plan1, .plan2, .plan3, .plan4, .plan5, .plan6{
+        height: 220px;
+        width: 320px;
+    }
+
+    .plan2{
+        height: 300px;
+    }
+
+    .photographerTeam{
+        width: 320px;
+        height: 204px;
+        margin-top: 34px;
+    }
+
+    .animatedHeading{
+        position: relative;
+        font-size: 2rem;
+    }
+
+    .animatedText{
+        margin: 7px;
+        position: relative;
+        bottom: 25px;
+    }
+
+
+
+    .k4{
+        width: 250px;
+    }
+}

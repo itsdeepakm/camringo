@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.services{
+    position: relative;
+    top: 12vh;
+}
+
+.weddingHeading{
+    font-family: 'Narnoor', serif;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+}
+
+.weddingImages{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.weddingImage1, .weddingImage3{
+    height: 350px;
+    width: 300px;
+}
+
+.weddingImage2{
+    width: 620px;
+}
+
+.weddingImage3{
+    position: relative;
+    top: 0.17vh;
+}
+
+.weddingImage4{
+    width: 620px;
+    height: 350px;
+}
+
+.weddingImage1, .weddingImage2, .weddingImage3, .weddingImage4{
+    margin: 0.4vh;
+    border-radius: 12px;
+}
+
+.weddingDesc{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we, .film{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    color: rgb(50, 50, 50);
+}
+
+.weddingTeam{
+    margin-top: 3vh;
+    text-align: center;
+    width: 50vw;
+    font-size: 1.2rem;
+    font-family: 'Narnoor', serif;
+    line-height: 1.7rem;
+    color: rgb(88, 88, 88);
+}
+
+.weddingInfo{
+    margin-top: 5vh;
+    min-height: 18vh;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(243, 243, 243);
+}
+
+.weddingInfo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.weddingInfo span{
+    width: 33.33vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Narnoor', serif;
+    font-size: 1.1rem;
+}
+
+.photoIcon{
+    font-size: 2.5rem;
+}
+
+
+.preWeddingHeading{
+    font-family: 'Narnoor', serif;
+    font-size: 3.5rem;
+    margin-top: 4vh;
+    margin-left: 1rem;
+}
+
+.grey{
+    color: rgb(70, 70, 70);
+}
+
+.preWeddingVideo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.preWeddingVideo1{
+    max-width: 900px;
+    height: auto;
+    min-width: 350px;
+}
+
+.marquee{
+    margin-top: 4vh;
+}
+
+.marqueeImage{
+    width: auto;
+    max-height: 32vh;
+    margin: 0.12rem;
+}
+
+.preWeddingDesc{
+    background-color: rgb(240, 240, 240);
+    padding: 2vh;
+    margin-top: 2vh;
+}
+
+.dreams{
+    color: brown;
+}
+
+.films{
+    color: rgb(41, 110, 153);
+}
+
+
+.celebrityGuest{
+    margin-top: 3vh;
+}
+
+.celebrityGuestDesc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 3vh;
+}
+
+.have, .your{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    color: rgb(190, 124, 31);
+}
+
+
+.celebrityImage1, .celebrityImage2{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 15px;
+}
+
+.celebrityGuestImages{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.celebrityImage1{
+    margin-left: 15vw;
+}
+
+.celebrityImage2{
+    margin-left: 45vw;
+    margin-top: 2vh;
+}
+
+.imagine{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vh;
+    min-height: 15vh;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    color: rgb(58, 58, 58);
+    padding: 1.5vh;
+}
+
+.imagine span{
+    font-family: 'Narnoor', serif;
+    font-size: 1.1rem;
+    width: 50vw;
+}
+
+.imagineSpan{
+    color: rgb(12, 100, 91);
+    font-weight: 600;
+}
+
+.loveStory{
+    color: tomato;
+}
+
+.weddingSongHeading{
+    margin-top: 3vh;
+}
+
+.plus{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    position: relative;
+    bottom: 4vh;
+}
+
+.musician, .songWriter, .add{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.musician{
+    background: linear-gradient(to right, #ff4343 0%, #ae48fc 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+    font-size: 3.8rem;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.songWriter{
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+    font-size: 3.8rem;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.add{
+    background: linear-gradient(to right, #ffda20 0%, #edd522 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.songs{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.song1, .song2, .song3, .song4, .song5{
+    /* margin: 2rem; */
+    height: 32vh;
+    /* background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.songImage{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 15px;    
+}
+
+.audioPlayer{
+    margin-left: 3vw;
+}
+
+.audioPlayer div{
+    font-family: 'Narnoor', serif;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.audio{
+    position: relative;
+    right: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .marqueeImage{
+        width: 400px;
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .weddingTeam{
+        width: 62vw;
+    }
+
+    .preWeddingVideo{
+        margin-top: 3vh;
+    }
+
+    .celebrityImage1, .celebrityImage2{
+        width: 60vw;
+    }
+
+    .celebrityImage1{
+        margin-left: 5vw;
+    }
+
+    .celebrityImage2{
+        margin-left: 35vw;
+    }
+
+    .imagine span{
+        width: 70vw;
+    }
+
+    .plus{
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+
+    .musician, .add, .songWriter{
+        margin: 0;
+    }
+
+    .weddingSong{
+        margin-bottom: 2vh;
+    }
+
+    .weddingSongDesc{
+        position: relative;
+        bottom: 2vh;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 950px) {
+    .weddingImages{
+        grid-template-columns: auto;
+    }
+
+    .weddingImage1, .weddingImage2, .weddingImage4{
+        width: 70vw;
+        margin: 0.7vh;
+    }
+
+    .weddingImage3{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    .services{
+        top: 8vh;
+    }
+
+    .photoIcon{
+        font-size: 2rem;
+    }
+
+    .weddingInfo span{
+        font-size: 1rem;
+    }
+
+    .marqueeImage{
+        width: 350px;
+        height: 250px;
+    }
+
+    .weddingSongDesc{
+        bottom: 3vh;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .weddingTeam{
+        width: 70vw;
+    }
+
+    .weddingDesc{
+        margin-top: 7vh;
+    }
+
+    .preWeddingDesc{
+        margin-top: 1vh;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .weddingImage1, .weddingImage2, .weddingImage4{
+        width: 87vw;
+    }
+
+    .weddingImage2{
+        position: relative;
+        width: 87vw;
+    }
+
+    .weddingTeam{
+        width: 80vw;
+    }
+
+    .marquee{
+        margin-top: 2vh;
+    }
+
+    .celebrityImage1, .celebrityImage2{
+        height: 35vh;
+    }
+
+    .weddingSongDesc{
+        bottom: 5vh;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .weddingHeading, .preWeddingHeading{
+        font-size: 2.8rem;
+        margin-left: 0.7rem;
+    }
+
+    .weddingImage1, .weddingImage4{
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .celebrityImage1, .celebrityImage2{
+        height: 30vh;
+    }
+
+    .have, .your{
+        font-size: 2.5rem;
+    }
+
+    .imagine span{
+        width: 80vw;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .marqueeImage{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .weddingTeam{
+        width: 90vw;
+    }    
+
+    .weddingInfo{
+        min-height: 12vh;
+    }
+
+    .marqueeImage{
+        width: 250px;
+        height: 200px;
+    }
+
+    .celebrityImage1, .celebrityImage2{
+        height: 23vh;
+    }
+
+    .have, .your{
+        font-size: 2.2rem;
+    }
+
+    .imagine span{
+        width: 90vw;
+    }
+
+    .weddingDesc{
+        margin-top: 4vh;
+    }
+
+    .weddingSongDesc{
+        bottom: 3vh;
+    }
+
+    .songImage{
+        height: 17vh;
+        width: 17vh;
+    }
+
+    .audioPlayer{
+        position: relative;
+        left: 2vw;
+    }
+
+    .audio{
+        position: relative;
+        right: 5vw;
+    }
+
+    .song1, .song2, .song3, .song4, .song5{
+        height: 25vh; 
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .weddingTeam{
+        width: 95vw;
+    }
+
+    .we, .film{
+        font-size: 1.8rem;
+    }
+
+    .marqueeImage{
+        width: 200px;
+        height: 150px;
+    }
+
+    .celebrityImage1, .celebrityImage2{
+        width: 70vw;
+    }
+
+    .celebrityImage1{
+        margin-left: 2.5vw;
+    }
+
+    .celebrityImage2{
+        margin-left: 27.5vw;
+    }
+
+    .have, .your{
+        font-size: 2rem;
+    }
+
+    .imagine span{
+        width: 95vw;
+    }
+
+    .musician, .songWriter{
+        font-size: 3rem;
+    }
+
+    .audioPlayer{
+        position: relative;
+        left: 2.5vw;
+    }
+
+    .audio{
+        width: 60vw;
+    }
+
+    .songImage{
+        height: 15vh;
+        width: 15vh;
+        position: relative;
+    }
+
+    .audioPlayer{
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .have, .your{
+        font-size: 1.8rem;
+    }
+
+    .audioPlayer{
+    }
+
+    .songImage{
+        position: relative;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .celebrityImage1, .celebrityImage2{
+        height: 22vh;
+    }
+
+
+}

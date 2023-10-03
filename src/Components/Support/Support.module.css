@@ -1,0 +1,112 @@
+.support{
+    position: relative;
+    top: 15vh;
+}
+
+.supportHeading{
+    font-family: 'Narnoor', serif;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.contact{
+    margin-top: 7vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.icons, .names, .desc, .linkNow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoName, .logoDesc, .now, .icon{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.logoName{
+    font-size: 1.5rem;
+    font-family: 'Narnoor', serif;
+}
+
+.logoDesc{
+    font-size: 1.1rem;
+    color: rgb(94, 94, 94);
+    font-family: 'Narnoor', serif;
+}
+
+.now a{
+    color: rgb(67, 131, 157);
+    font-family: 'Narnoor', serif;
+}
+
+.supportVideo{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.helpVideo{
+    width: 500px;
+    margin-bottom: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .support{
+        position: relative;
+        top: 10vh;
+    }
+
+    .supportHeading{
+        font-size: 2.5rem;
+    }
+
+    .contact{
+        margin-top: 7vh;
+    }
+
+    .contact{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .supportVideo{
+        margin-top: 5vh;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .helpVideo{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .helpVideo{
+        width: 350px;
+    }
+}

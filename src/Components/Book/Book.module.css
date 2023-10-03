@@ -1,0 +1,214 @@
+.book{
+    position: relative;
+    top: 15vh;
+}
+
+.see{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Narnoor', serif;
+}
+
+.see u{
+    text-decoration: none;
+    color: rgb(12, 12, 92);
+}
+
+
+.call{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+    background-color: rgb(239, 239, 239);
+    position: relative;
+    left: 27.5vw;
+    border-radius: 16px;
+}
+
+.call1{
+    margin-bottom: 20vh;
+}
+
+.callDesc{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whatsappDesc{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.callImage{
+    height: 300px;
+}
+
+.query{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Narnoor', serif;
+}
+
+.callNumber{
+    font-family: 'Narnoor', serif;
+    font-size: 2rem;
+    color: green;
+    position: relative;
+    bottom: 15px;
+}
+
+.callText{
+    font-family: 'Narnoor', serif;
+    font-size: 1.1rem;
+    color: rgb(110, 110, 110);
+    position: relative;
+    bottom: 10px;
+}
+
+.phone{
+    height: 70px;
+}
+
+
+
+.or{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    font-size: 2rem;
+    font-family: 'Narnoor', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .call{
+        width: 55vw;
+        left: 22.5vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .call{
+        width: 65vw;
+        left: 17.5vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .call{
+        width: 80vw;
+        left: 10vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .call{
+        width: 90vw;
+        left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .callImage{
+        height: 250px;
+    }
+
+    .call{
+        margin-top: 4vh;
+    }
+
+    .or{
+        margin-top: 4vh;
+    }
+
+    .see{
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 2vh;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .callImage{
+        height: 250px;
+    }
+
+    .phone{
+        height: 50px;
+    }
+
+    .query{
+        font-size: 1.2rem;
+    }
+
+    .callNumber{
+        font-size: 1.7rem;
+        bottom: 5px;
+    }
+
+    .callDesc{
+        margin-right: 10px;
+    }
+
+    .whatsappDesc{
+        margin-right: 0px;
+    }
+
+    .callText{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .call{
+        width: 94vw;
+        left: 3vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .callImage{
+        height: 220px;
+    }
+
+    .query{
+        font-size: 1.1rem;
+    }
+
+    .callNumber{
+        font-size: 1.5rem;
+    }
+
+    .callText{
+        font-size: 1rem;
+        width: 200px;
+        text-align: center;
+        bottom: 2px;
+    }
+
+}

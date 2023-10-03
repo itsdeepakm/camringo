@@ -1,0 +1,937 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Narnoor&display=swap');
+
+
+.home{
+    overflow-x: hidden;
+}
+
+.bannerImage{
+    position: relative;
+    margin-top: 10vh;
+    width: 100vw;
+    max-height: 55vh;
+}
+
+.tagline{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5vw;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.portraitImages{
+    margin-top: 5vh;
+    background-color: #f0f0f0;
+    align-items: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.portraitImage1, .portraitImage2, .portraitImage3, .portraitImage4, .portraitImage5{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 7px;
+}
+
+.portraitImage1{
+    position: relative;
+    right: 0.5vw;
+}
+
+.portraitImage2, .portraitImage3, .portraitImage4{
+    position: relative;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.portraitImage5{
+    position: relative;
+    left: 0.5vw;
+}
+
+.portraitImage2, .portraitImage4{
+    top: 2.5vh;
+}
+
+.portraitImage1, .portraitImage3, .portraitImage5{
+    bottom: 2.5vh;
+}
+
+
+.vision{
+    height: 55vh;
+    background-color: #f0f0f0;
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading, .description{
+    margin-left: 15vw;
+}
+
+.heading{
+    font-size: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.description{
+    margin-top: 7vh;
+    width: 45vw;
+    font-size: 1.5rem;
+    font-family: 'Narnoor', serif;
+}
+
+.cinematic{
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+}
+
+.gradientEmotion, .gradientWedding{
+    background: linear-gradient(to right, #f1b21e 0%, #e53b32 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.servicesHeading{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5vh;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    font-family: 'Narnoor', serif;
+}
+
+.five{
+    display: flex;
+    align-items: center;
+    margin-top: 7vh;
+    height: 30vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+}
+
+.five p{
+    margin-left: 10vw;
+    font-size: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.five span{
+    background: linear-gradient(to right, #ff4343 0%, #ae48fc 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Caveat', cursive;
+    font-size: 6rem;
+}
+
+
+.projectSection{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectHeading{
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    font-family: 'Narnoor', serif;
+}
+
+.projectDescription{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1vh;
+    font-family: 'Narnoor', serif;
+}
+
+.marquee1{
+    margin-top: 3vh;
+    height: 30vh;
+    width: 100vw;
+}
+
+.projectImage{
+    height: 24vh;
+    width: 20vw;
+    margin: 0.2rem;
+    max-width: 100%;
+    min-width: 230px;
+    height: auto;
+}
+
+
+.couples{
+    position: relative;
+    width: 20vw;
+    min-width: 230px;
+    margin: 0.2rem;
+    left: 0.15rem;
+    font-family: 'Narnoor', serif;
+}
+
+.address{
+    position: relative;
+    width: 20vw; 
+    min-width: 230px;
+    margin: 0.2rem;
+    left: 0.15rem;
+    font-family: 'Narnoor', serif;
+}
+
+.plansHeading{
+    font-size: 3.5rem;
+    margin-top: 8vh;
+    margin-left: 1rem;
+    font-family: 'Narnoor', serif;
+}
+
+
+.plans{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.plan1, .plan2, .plan3{
+    max-width: 100%;
+    height: auto;
+    width: 24vw;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 1s ease-in-out;
+    transition: scale(1) 1s ease-in-out;
+    cursor: pointer;
+}
+
+.plan1:hover{
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+
+.plan3:hover{
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+
+.plan2:hover{
+    z-index: 100;
+    transform: scale(1.1);
+}
+
+.plan1{  
+    position: relative;
+    left: 6.5vw;
+    transform: rotate(-24deg);
+}
+
+.plan3{
+    position: relative;
+    right: 6.5vw;
+    transform: rotate(24deg);
+}
+
+.plan1, .plan3{
+    top: 10vh;
+}
+
+.reviewHeading{
+    margin-top: 26vh;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    font-family: 'Narnoor', serif;
+}
+
+.reviews{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review{
+    width: 50vw;
+    max-width: 90vw;
+    height: auto;
+    margin: 0.5rem;
+    border-radius: 12px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceImg{
+    height: 55vh;
+    width: 55vw;
+    border: solid #000 2px;
+    margin-top: 10vh;
+}
+
+.serviceImg1{
+    height: 55vh;
+    width: 55vw;
+    border: solid #000 2px;
+    margin-top: 5vh;
+}
+
+.serviceDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    width: 40vw;
+    text-align: center;
+}
+
+.name{
+    font-family: 'Narnoor', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nameDesc{
+    font-family: 'Narnoor', serif;
+    font-size: 1.1rem;
+    margin-top: 1.5vh;
+    color: #3b3b3b;
+}
+
+.see{
+    margin-top: 4vh;
+    min-width: 140px;
+    min-height: 35px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Narnoor', serif;
+}
+
+.serviceLink{
+    text-decoration: none;
+}
+
+.line{
+    width: 80vw;
+    position: relative;
+    margin-top: 10vh;
+    left: 10vw;
+    background-color: #000;
+    height: 0.1vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.serviceFoot, .plansFoot, .aboutFoot, .supportFoot{
+    margin: 5rem;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceHead, .planHead, .aboutHead, .supportHead{
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    margin-bottom: 3vh;
+}
+
+.bottom{
+    font-family: 'Inconsolata', monospace;
+    margin-top: 1rem;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .plan1{
+        left: 7vw;
+    }
+    .plan3{
+        right: 7vw;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .portraitImage5{
+        display: none;
+    }
+
+    .portraitImage1, .portraitImage2, .portraitImage3, .portraitImage4{
+        width: 25vw;
+        height: 45vh;
+    }
+
+    .vision{
+        height: 70vh;
+    }
+
+    .heading, .description{
+        margin-left: 7vw;
+    }
+
+    .five{
+        height: 25vh;
+    }
+
+    .plan1, .plan2, .plan3{
+        width: 28vw;
+    }
+
+    .youtube, .instagram{
+        width: 60vw;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .tagline{
+        font-size: 2.7rem;
+    }
+
+    .heading, .description{
+        margin-left: 5vw;
+    }
+
+    .vision{
+        height: 52vh;
+    }
+
+    .heading{
+        font-size: 3.5rem;
+    }
+
+    .description{
+        font-size: 1.5rem;
+        width: 55vw;
+    }
+
+    .portraitImage1, .portraitImage2, .portraitImage3, .portraitImage4{
+        width: 28vw;
+        height: 42vh;
+    }
+
+    .portraitImages{
+        height: 55vh;
+    }
+
+    .upper, .lower{
+        flex-direction: column;
+    }
+
+    .weddingSong, .celebrityGuest, .wedding, .preWedding{
+        width: 70vw;
+        height: 60vh;
+    }
+
+    .plan1{
+        left: 8vw;
+    }
+
+    .plan3{
+        right: 8vw;
+    }
+
+    .review{
+        min-width: 80vw;
+    }
+
+    .serviceDesc{
+        width: 50vw;
+        margin-bottom: 3vh;
+    }
+
+
+    .nameDesc{
+        margin-bottom: 1vh;
+    }
+
+    .name{
+        font-weight: 500;
+    }
+
+    .serviceImg, .serviceImg1{
+        width: 70vw;
+        height: 55vh;
+    }
+
+    .serviceFoot, .plansFoot, .aboutFoot, .supportFoot{
+        margin: 3.5rem;
+    }
+
+
+    .youtube, .instagram{
+        width: 70vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    .heading{
+        font-size: 3rem;
+    }
+
+    .bannerImage{
+        margin-top: 7vh;
+    }
+
+    .serviceImg, .serviceImg1{
+        height: 55vh;
+    }
+
+    .instagram, .youtube, .instaInfo, .youtubeInfo{
+        height: 18vh;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .portraitImage1, .portraitImage2, .portraitImage3, .portraitImage4{
+        width: 32vw;
+        height: 40vh;
+    } 
+
+    .heading{
+        width: 60vw;
+        line-height: 8vh;
+    }
+
+    .heading, .description{
+        margin-left: 15vw;
+    }
+
+    .heading{
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .description{
+        width: 65vw;
+        margin-top: 1vh;
+    }
+
+    .plans{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .plan1, .plan3, .plan2{
+        transform: rotate(0);
+        left: 0;
+        right: 0;
+    }
+
+    .plan1, .plan2, .plan3{
+        height: 55vh;
+        width: 300px;
+    }
+
+    .plan2{
+        position: relative;
+        top: 15vh;
+    }
+
+    .plan3{
+        position: relative;
+        top: 20vh;
+    }
+
+    .reviewHeading{
+        font-size: 3rem;
+    }
+
+    .serviceImg, .serviceImg1{
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .serviceImg{
+        margin-top: 5vh;
+    }
+
+    .serviceDesc{
+        width: 60vw;
+    }
+
+    .line{
+        left: 5vw;
+        width: 90vw;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .serviceFoot, .plansFoot, .aboutFoot, .supportFoot{
+        margin: 2rem;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    } 
+
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .instagram, .youtube, .instaInfo, .youtubeInfo{
+        height: 16vh;
+    }
+
+    .instagram, .youtube{
+        width: 80vw;
+    }
+
+}
+
+@media only screen and (max-width: 750px) { 
+    .five p{
+        margin-left: 3vw;
+    }
+
+    .projectSection{
+        margin-top: 2vh;
+    }
+
+    .reviewHeading{
+        font-size: 2.5rem;
+    }
+
+    .projectHeading, .servicesHeading, .plansHeading{
+        font-size: 2.8rem;
+    }
+
+    .serviceHead, .planHead, .aboutHead, .supportHead{
+        margin-bottom: 0vh;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .angle{
+        height: 50vh;
+    }
+
+    .instagram, .youtube, .instaInfo, .youtubeInfo{
+        height: 15vh;
+        width: 110vw;
+        border-radius: 0;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .portraitImage1, .portraitImage2, .portraitImage3, .portraitImage4{
+        width: 35vw;
+        height: 38vh;
+    } 
+
+    .heading{
+        font-size: 2.7rem;
+        width: 70vw;
+    }
+
+    .description{
+        width: 70vw;
+    }
+
+    .review{
+        min-width: 90vw;
+    }
+
+    .services{
+        position: relative;
+        bottom: 1vh;
+    }
+
+    .serviceImg1, .serviceImg{
+        width: 75vw;
+        height: 40vh;
+    }
+
+    .see{
+        min-width: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .portraitImage4{
+        display: none;
+    }
+
+    .portraitImages{
+        height: 50vh;
+    }
+
+    .portraitImage1, .portraitImage2, .portraitImage3{
+        height: 35vh;
+    } 
+
+    .heading{
+        line-height: 7vh;
+    }
+
+    .weddingSong, .celebrityGuest, .wedding, .preWedding{
+        height: 30vh;
+    }
+
+    .five p{
+        font-size: 3.3rem;
+    }
+
+    .five span{
+        font-size: 5.5rem;
+    }
+
+    .five{
+        height: 22vh;
+        margin-top: 10px;
+    }
+
+    .projectDescription{
+        font-size: 1rem;
+        width: 80vw;
+    }
+
+    .plansHeading{
+        position: relative;
+        bottom: 8vh;
+        margin-top: 13vh;
+        margin-bottom: 2vh;
+    }
+
+    .plans{
+        position: relative;
+        bottom: 13vh;
+    }
+
+    .reviewHeading{
+        position: relative;
+        bottom: 10vh;
+        font-size: 2rem;
+    }
+
+    .reviews{
+        margin-top: -8vh;
+    }
+
+    .serviceDesc{
+        width: 60vw;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+
+    .nameDesc{
+        font-size: 1rem;
+    }
+
+    .serviceImg, .serviceImg1{
+        width: 80vw;
+        height: 38vh;
+    }
+
+    .serviceDesc{
+        width: 70vw;
+    }
+
+    .see{
+        margin-top: 2vh;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .tagline{
+        font-size: 2.3rem;
+    }
+
+    .portraitImage1, .portraitImage2, .portraitImage3{
+        width: 38vw;
+        height: 35vh;
+    } 
+
+    .heading{
+        font-size: 2.5rem;
+        width: 75vw;
+    }
+
+    .description{
+        width: 70vw;
+        font-size: 1.2rem;
+    }
+
+    .five p{
+        font-size: 2.5rem;
+    }
+
+    .five span{
+        font-size: 4.6rem;
+    }
+
+    .serviceImg, .serviceImg1{
+        height: 32vh;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .portraitImage1, .portraitImage2, .portraitImage3{
+        width: 42vw;
+        height: 33vh;
+    } 
+
+    .portraitImages{
+        height: 48vh;
+    }
+
+    .heading, .description{
+        margin-left: 10vw;
+    }
+
+    .heading{
+        font-size: 2.2rem;
+    }
+
+    .description{
+        width: 80vw;
+    }
+
+    .review{
+        min-width: 95vw;
+    }
+
+    .reviewHeading{
+        font-size: 1.7rem;
+    }
+
+    .serviceImg, .serviceImg1{
+        height: 35vh;
+        width: 85vw;
+    }
+
+    .follow, .companyName{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .tagline{
+        font-size: 2rem;
+    }
+
+    .portraitImages{
+        height: 45vh;
+    }
+
+    .portraitImage1, .portraitImage2, .portraitImage3{
+        width: 45vw;
+        height: 30vh;
+    } 
+
+    .heading{
+        width: 80vw;
+        font-size: 2rem;
+    }
+
+    .heading, .description{
+        margin-left: 5vw;
+    }
+
+
+    .description{
+        width: 85vw;
+        margin-top: 0;
+    }
+
+    .weddingSong, .wedding, .preWedding, .celebrityGuest{
+        width: 80vw;
+    }
+
+    .five p{
+        font-size: 2.2rem;
+    }
+
+    .five span{
+        font-size: 4.2rem;
+    }
+
+    .serviceImg, .serviceImg1{
+        width: 88vw;
+        height: 28vh;
+    }
+
+    .serviceDesc{
+        width: 78vw;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .tagline{
+        font-size: 1.8rem;
+    }
+}
+
+
+
+
+
+
